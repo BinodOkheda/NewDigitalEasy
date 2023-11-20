@@ -15,14 +15,25 @@ Before running the application, make sure you have Node.js and MongoDB installed
 
 
 ### API Endpoints
-1. **Add User:**
-Endpoint: POST /users
-Description: Adds a new user to the database.
-Request Body:
 
-{
-  "name": "John Doe",
-  "role": "Admin",
-  "email": "john@example.com",
-  "phoneNumber": "123-456-7890"
-}
+
+1. **Add User:**
+**Endpoint**: POST /users
+
+
+2. **Get All Users**:
+**Endpoint**: GET /users
+
+
+3. **Get Single User**:
+**Endpoint**: GET /users/:id
+
+4. **Delete Single User**:
+**Endpoint**: DELETE /users/:id
+
+
+5. **Update User**:
+**Endpoint**: PUT /users/:id
+
+
+
